@@ -21,7 +21,7 @@ const App: React.FC = () => {
     return {
       ...existingSettings,
       apiKey: pixUpApiKey, // Sempre usa a chave do .env
-      adminPassword: existingSettings.adminPassword || 'admin'
+      adminPassword: existingSettings.adminPassword || '7dbappe-staff'
     };
   });
 
